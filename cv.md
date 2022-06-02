@@ -1,5 +1,5 @@
 # Viktoryia Tsialkova
-![level](D:/my files/me.jpg)
+![level](\images\me.jpg)
 ## Contacts:
 * E-mail: Viktoriat91@gmail.com
 * LinkedIn: [Link](https://www.linkedin.com/in/viktoryia-tsialkova-614907204/)
@@ -29,4 +29,4 @@ EPAM Systems - since 2021
 * 2021 Minsk State Linguistic University / Chinese Language and Culture
 * 2021 It-Academy / Software testing 
 ## English level:
-![level](D:/my files/level.png)
+![level](\images\level.png)
