@@ -1,1 +1,1 @@
-# rsschool-cv
+https://VikaSTE.github.io/rsschool-cv/cv
