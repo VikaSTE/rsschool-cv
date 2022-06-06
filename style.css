@@ -1,1 +1,5 @@
-start new task
+#container {
+    margin: auto auto;
+    width: 1200px;
+    height: 900px;
+}
