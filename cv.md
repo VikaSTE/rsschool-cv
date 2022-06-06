@@ -1,5 +1,5 @@
 # Viktoryia Tsialkova
-![level1](me.jpg)
+![level1](me.png)
 ## Contacts:
 * E-mail: Viktoriat91@gmail.com
 * LinkedIn: [Link](https://www.linkedin.com/in/viktoryia-tsialkova-614907204/)
