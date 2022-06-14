@@ -5,20 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <link rel="icon" href="./assets/img/icon.ico">
+    <title>Viktoryia</title>
 </head>
-<body>
-    <header>
-        <nav></nav>
+<body class="body">
+    <header class="header">
+        <div class="container container-header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sskills">Soft skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hskills">Hard skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code">Code example</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#experience">Work experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education and courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#english">English level</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+    <main class="container container-main">
+        <div class="left-side">
+            <figure class="section section-profile" id="profile">
+                <div>
+                    <img src="./assets/img/me.png" alt="My photo">
+                </div>
+            </figure>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div>
+                    <ul>
+                        <li>E-mail:
+                            <a class="contact-link" target="_blank" href="mailto:Viktoriat91@gmail.com" title="E-mail">Viktoriat91@gmail.com</a>
+                        </li>
+                        <li>LinkedIn:
+                            <a class="contact-link" target="_blank" href="https://www.linkedin.com/in/viktoryia-tsialkova-614907204/" title="LinkedIn">Viktoryia Tsialkova</a>
+                        </li>
+                        <li>GitHub:
+                            <a class="contact-link" target="_blank" href="https://github.com/VikaSTE" title="GitHub">VikaSTE</a>
+                        </li>
+                        <li>Discord:
+                            <span class="discord-link">@VikaSTE#0534</span>
+                        </li>
+                        <li>Telegram:
+                            <a class="contact-link" target="_blank" href="https://t.me/XueYanTi" title="Telegram">XueYanTi</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section section-sskills" id="sskills">
+                <h2 class="section-title">Soft skills</h2>
+                <div>
+                    <ul>
+                        <li>Continuous Learning</li>
+                        <li>Teamwork</li>
+                        <li>Adaptability</li>
+                        <li>Self-motivation</li>
+                        <li>Responsibility</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section section-experience" id="experience">
+                <h2 class="section-title">Work experience</h2>
+                <p>EPAM Systems - since 2021</p>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education and courses</h2>
+                <div>
+                    <ul>
+                        <li>2021 Minsk State Linguistic University / Chinese Language and Culture</li>
+                        <li>2021 It-Academy / Software testing</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="right-side">
+            <div class="name">
+                <h1 class="section-title">Viktoryia Tsialkova</h1>
+                <h2 class="section-subtitle">Front-End Developer (Student)</h2>
+            </div>
+            <section class="section section-summary" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p>Technically skilled and ambitious Software Testing Engineer with strong theoretical knowledge of Testing Processes and a desire for continuous improvement of knowledge and skills. Have good communication and interpersonal skills with significant experience in working with people. Current goal is to learn JS.</p>
+            </section>
+            <section class="section section-hskills" id="hskills">
+                <h2 class="section-title">Hard skills</h2>
+                <div>
+                    <ul>
+                        <li>Practical experience in different types of testing</li>
+                        <li>Creation testing artifacts</li>
+                        <li>Experience in Agile (SCRUM, KANBAN)</li>
+                        <li>Experience in using DB (SQL-select with joins and conditions)</li>
+                        <li>Experience in testing API via Postman</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section section-code" id="code">
+                <h2 class="section-title">Code example</h2>
+                <code>function multiply(a, b){return a * b}</code>
+            </section>
+            <section class="section section-projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a class="contact-link" target="_blank" href="https://github.com/VikaSTE/rsschool-cv/blob/main/cv.md" title="Markdown CV">CV via markdown</a>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English level</h2>
+                <img src="./assets/img/level.png" alt="English level">
+            </section>
+        </div>
     </main>
-    <footer></footer>
+    <footer class="footer"> 
+        <div class="container container-footer">
+            <div class="footer-year">
+                <p>2022</p>
+            </div>
+            <div class="footer-mygit">
+                <a target="_blank" href="https://github.com/VikaSTE" title="GitHub">
+                    <img height="50" width="50" src="./assets/img/git.png" alt="GitHub">
+                </a>
+            </div>
+            <div class="footer-rsschool">
+                <a target="_blank" href="https://rs.school/js/">
+                    <img height="60" width="130" src="./assets/img/rs_school_js.svg" alt="RS school">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
