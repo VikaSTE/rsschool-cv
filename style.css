@@ -1,5 +1,101 @@
-#container {
-    margin: auto auto;
-    width: 1200px;
-    height: 900px;
+@font-face {
+    font-family: "Nunito-Extralight";
+    src: url("./assets/fonts/Nunito-ExtraLight.ttf");
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "Nunito-Extralight";
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header {
+    font-size: 20px;
+    background-color: #a67feb;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 50px;
+    color: #ffffff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+ .nav-item a {
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #4d2323;
+}
+
+.container-main {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    width: 30%;
+    padding: 15px;
+}
+
+.section-title {
+    margin: 10px 0 20px;
+    padding: 10px 0;
+    border-bottom: 5px groove #a67feb;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #a67feb;
+}
+
+.discord-link {
+    color: #a67feb;
+}
+
+.right-side {
+    width: 70%;
+    padding: 15px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #a67feb;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color:#ffffff;
+    cursor: pointer;
 }
